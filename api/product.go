@@ -23,6 +23,7 @@ type Draw_Model struct {
 	Winner_User         string //User model must be here
 }
 
+//Calculate to min purchaser count
 func getMinPurchaserCount(productModel Product_Model) float32 {
 	productPrice := productModel.Price
 	productFee := productModel.Fee
